@@ -39,8 +39,8 @@ class feed extends \spouts\spout {
      */
     public $params = [
         'url' => [
-            'title' => 'URL',
-            'type' => 'url',
+            'title' => 'Techmeme',
+            'type' => 'http://www.techmeme.com/feed.xml',
             'default' => '',
             'required' => true,
             'validation' => ['notempty']
